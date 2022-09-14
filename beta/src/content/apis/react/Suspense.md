@@ -12,7 +12,9 @@ This section is incomplete, please see the old docs for [Suspense.](https://reac
 <Intro>
 
 ```js
-<React.Suspense fallback={<Spinner />}>{...}</React.Suspense>
+<React.Suspense fallback={<Spinner />}>
+  <Something />
+</React.Suspense>
 ```
 
 </Intro>
